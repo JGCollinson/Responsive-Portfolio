@@ -1,17 +1,36 @@
 @charset "UTF-8";
 .body {
-	background-color: #777;
+	background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.container{
+	margin: auto;
 	width: 960px;
-	font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
-	font-size: 18px;
-	color: #777
+}
+.nav{
+/* Box-model */
+	height: 66px;
+	width: 100%;
+	
+  /* Typography */
+  color: #eee;
+  text-align: left;
+
+  /* Visual */
+  background: #ffffff;
+	border-top: 3px solid #FFFFFF;
+	border-bottom: 3px solid;
+	border-bottom-color: #cccccc;
+	clear: both;
 }
 .primary_header {
-	background-color: #ebebeb;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	clear: left;
-	margin: 10px;
+	background-color: #4aaaa5;
+	float: left;
+	text-align: center;
+	align-content: center;
+	width: 250px;
+	padding: 20px;
+	border-radius: 10px;
 }
 .secondary_header {
 	text-align: center;
@@ -23,34 +42,35 @@
 	margin-top: 10px;
 	margin-left: 10px;
 }
-
 .section {
 	float: left;
-	width: 495px;
-	height: 240px;
-	text-align: center;
-	background-color: #ebebeb;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	width: 650px;
+	background-color: #ffffff;
+	border-color: #dddddd;
+	padding: 5px;
 	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+#profilepic{
+	border: 10px solid #4AAAA5;
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-radius: 10px;
+	
 }
 .aside {
 	float: right;
-	height: 210px;
-	width: 430px;
-	margin-right: 10px;
+	width: 270px;
 	margin-top: 10px;
-	margin-bottom: 10px;
+	padding: 10px;
 	text-align: center;
 	background-color:#ebebeb;
-	padding-top: 30px;
+	border-radius: 10px;
 }
 .article {
-	background-color: #777;
-	text-align: center;
-	margin: 10px;
-	border: 10px solid;
-	border-color: #777;
+	text-align: left;
 }
 .sub_article {
 	background-color: #ebebeb;
@@ -58,24 +78,39 @@
 	margin: 10px;
 	padding: 10px;
 }
-
 .footer {
 	text-align: center;
+	color: white;
 	clear: both;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	background-color: #ebebeb;
-	margin: 10px;
-}
-.title {
-	text-align: center;
-	color: #777;
-	margin: 10px;
-}
+	padding: 25px;
+	border-top: 15px solid #4AAAA5;
+	margin-top: 10px;
+	background-color: #666666;
+	/* Box-model */
 
-#whitetxt {
-	color: white
+}
+#links {
+float: right;
+  text-align: center;
+	padding-top: 23px;
 }
 
+p {
+	font-size: 16px;
+	line-height: 2;
+	color: #777777;
+}
 
+h1 {
+	font-size: 26px;
+	font-weight: bold;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	}
+a {
+	font-size: 16px;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #777777;
+	text-decoration: none;
+	}
 
