@@ -3,7 +3,7 @@
 	box-sizing: border-box;
 }
 .body {
-	background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
+
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .container{
@@ -185,7 +185,7 @@ p {
 		}
 @media screen and (max-width: 980px) {
 	.body{
-		background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
+		
 		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	}
 	.container{
@@ -364,7 +364,7 @@ p {
 }
 @media screen and (max-width: 786px) {
 	.body {
-		background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
+		
 		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	}
 	.container{
@@ -545,7 +545,7 @@ p {
 }
 @media screen and (max-width: 640px) {
 	.body {
-		background-image: url(https://storage.googleapis.com/webpractice/polka-dots.png);
+		
 		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	}
 	.container{
