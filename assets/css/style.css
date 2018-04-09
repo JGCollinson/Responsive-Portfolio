@@ -59,6 +59,7 @@ p {
   border-bottom-color: #cccccc;
   clear: both;
 }
+
 .primary_header {
   background-color: #4aaaa5;
   text-align: center;
@@ -131,6 +132,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .footer {
   text-align: center;
   color: white;
@@ -164,7 +166,16 @@ hr {
   border: none;
   width: 100%;
 }
-
+#links {
+  position: absolute;
+  top: 3%;
+  right: 4%;
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  color: #777777;
+  text-decoration: none;
+}
 .aside > a {
   float: center;
   margin: auto;
